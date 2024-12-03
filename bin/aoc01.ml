@@ -31,7 +31,7 @@ let part2 lines =
 
 
 let () =
-  let lines = Core.In_channel.read_lines "inputs/01.txt" in
+  let lines = Jls.read_lines "inputs/01.txt" in
   let part1_soln = part1 lines in
   let part2_soln = part2 lines in
   Printf.printf "Part 1: %i\n" part1_soln;

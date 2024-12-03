@@ -1,7 +1,7 @@
 (executable
  (public_name aoc2024)
  (name main)
- (libraries jls core re str))
+ (libraries jls str))
 
 (env
  (dev

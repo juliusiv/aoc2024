@@ -10,3 +10,10 @@ To see different day solutions, modify `bin/main.ml` to `open` different `AocX` 
 Part 1: 2000468
 Part 2: 18567089
 ```
+
+## Day 2: Red-Nosed Reports
+
+```
+Part 1: 383
+Part 2: 436
+```
