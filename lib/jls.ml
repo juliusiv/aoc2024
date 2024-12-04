@@ -31,3 +31,11 @@ let read_lines (file_name : string) : string list =
   let lines = read_lines chan in
   close_in chan;
   lines
+;;
+
+let read_file (file_name : string) : string =
+  let ch = open_in file_name in
+  let s = really_input_string ch (in_channel_length ch) in
+  close_in ch;
+  s
+;;
