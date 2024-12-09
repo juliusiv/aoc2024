@@ -31,3 +31,10 @@ Part 2: 100411201
 Part 1: 2534
 Part 2: 1866
 ```
+
+## Day 5: Print Queue
+
+```
+Part 1: 4905
+Part 2: 6204
+```

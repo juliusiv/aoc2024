@@ -39,3 +39,9 @@ let read_file (file_name : string) : string =
   close_in ch;
   s
 ;;
+
+let every f list =
+  let bools = List.map f list in
+
+  List.fold_left (fun acc x -> acc && x) true bools
+;;

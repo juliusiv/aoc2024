@@ -7,3 +7,5 @@ val zip : 'a list -> 'a list -> ('a * 'a) list
 val read_lines : string -> string list
 
 val read_file : string -> string
+
+val every :  ('a -> bool) -> 'a list -> bool
