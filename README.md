@@ -24,3 +24,10 @@ Part 2: 436
 Part 1: 174103751
 Part 2: 100411201
 ```
+
+## Day 4: Ceres Seach
+
+```
+Part 1: 2534
+Part 2: 1866
+```
